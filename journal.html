@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+     <title> Journal </title>
+     <meta charset="UTF-8" />
+     <meta name="author" content="laica" />
+     <meta name="keyword" content="journal" />
+     <meta name="viewport" content="width= device-width, initail-scale= 1.0" />
+
+     <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header> <h1> La&iuml;ca Tools </h1>
+        <nav> 
+          <ul> 
+          <li> <a href="index.html"> Accueil </a> </li>
+          <li> <a href="calculs.html"> Calculs comptables </a> </li>
+          <li> <a href="resultat.html"> compte de r&eacute;sultat </a> </li>
+          <li> <a href="bilan.html">   Bilan   </a> </li>
+          <li> <a href="journal.html"> Journal </a></li>
+          <li> <a href="comprendre.html">Comprendre </a></li>
+          <li> <a href="apropos.html"> &Agrave; propos  </a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <main>
+      <h2> Journal Comptable </h2>
+      <table>
+        <thead>
+          <tr>
+            <th> Date </th>
+            <th> Libell&eacute; </th>
+            <th> D&eacute;bit </th>
+            <th> Cr&eacute;dit </th>
+          </tr>
+        </thead>
+          <!--ce qui va dans le body du tableau -->
+        <tbody>
+          <tr>
+            <td> <input type="date"   id="date-1"> </td>
+            <td> <input type="text"   id="libelle-1"> </td>
+            <td> <input type="number" id="debit-1"> </td>
+            <td> <input type="number" id="credit-1"> </td>
+          </tr>
+          <tr>
+            <td> <input type="date"   id="date-2"> </td>
+            <td> <input type="text"   id="libelle-2"> </td>
+            <td> <input type="number" id="debit-2"> </td>
+            <td> <input type="number" id="credit-2"> </td>
+          </tr>
+          <tr>
+            <td> <input type="date"   id="date-3"> </td>
+            <td> <input type="text"   id="libelle-3"> </td>
+            <td> <input type="number" id="debit-3"> </td>
+            <td> <input type="number" id="credit-3"> </td>
+          </tr>
+          <tr>
+            <td> <input type="date"   id="date-4"> </td>
+            <td> <input type="text"   id="libelle-4"> </td>
+            <td> <input type="number" id="debit-4"> </td>
+            <td> <input type="number" id="credit-4"> </td>
+          </tr>
+          <tr>
+            <td> <input type="date"   id="date-5"> </td>
+            <td> <input type="text"   id="libelle-5"> </td>
+            <td> <input type="number" id="debit-5"> </td>
+            <td> <input type="number" id="credit-5"> </td>
+          </tr>
+          <tr>
+            <td> <input type="date"   id="date-6"> </td>
+            <td> <input type="text"   id="libelle-6"> </td>
+            <td> <input type="number" id="debit-6"> </td>
+            <td> <input type="number" id="credit-6"> </td>
+          </tr>
+          <tr>
+            <td> <input type="date"   id="date-7"> </td>
+            <td> <input type="text"   id="libelle-7"> </td>
+            <td> <input type="number" id="debit-7"> </td>
+            <td> <input type="number" id="credit-7"> </td>
+          </tr>
+          <tr>
+            <td> <input type="date"   id="date-8"> </td>
+            <td> <input type="text"   id="libelle-8"> </td>
+            <td> <input type="number" id="debit-8"> </td>
+            <td> <input type="number" id="credit-8"> </td>
+          </tr>
+          <tr>
+            <td> <input type="date"   id="date-9"> </td>
+            <td> <input type="text"   id="libelle-9"> </td>
+            <td> <input type="number" id="debit-9"> </td>
+            <td> <input type="number" id="credit-9"> </td>
+          </tr>
+          <tr>
+            <td> <input type="date"   id="date-10"> </td>
+            <td> <input type="text"   id="libelle-10"> </td>
+            <td> <input type="number" id="debit-10"> </td>
+            <td> <input type="number" id="credit-10"> </td>
+          </tr>
+        </tbody>
+
+      </table>
+      <button type="button" id="btn-journal"> Calculer </button>
+      <p id="tot-debit"> Total D&eacute;bit : </p>
+      <p id="tot-credit"> Total Cr&eacute;dit : </p>
+      <p id="equilibre">  R&eacute;sultat : </p>
+
+    </main>
+     
+
+
+
+</body>
+
+
+
+</html>

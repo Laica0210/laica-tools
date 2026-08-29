@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+     <title> Bilan </title>
+     <meta charset="UTF-8" />
+     <meta name="author" content="laica" />
+     <meta name="keyword" content="bilan" />
+     <meta name="viewport" content="width= device-width, initail-scale= 1.0" />
+
+     <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+      <header> <h1> La&iuml;ca Tools </h1>
+        <nav> 
+          <ul> 
+          <li> <a href="index.html"> Accueil </a> </li>
+          <li> <a href="calculs.html"> Calculs comptables </a> </li>
+          <li> <a href="resultat.html"> compte de r&eacute;sultat </a> </li>
+          <li> <a href="bilan.html">   Bilan   </a> </li>
+          <li> <a href="journal.html"> Journal </a></li>
+          <li> <a href="comprendre.html">Comprendre </a></li>
+          <li> <a href="apropos.html"> &Agrave; propos  </a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <main class="sans-bordure">
+      <h2> Bilan Comptable </h2>
+      <section>
+          <h3> Actif </h3>
+          <div>
+            <label for="immo-inco"> Immobilisations incorporelles </label>
+            <input type="number"   id="immo-inco">
+          </div>
+          <div>
+            <label  for="immo-corp"> Immobilisations corporelles </label>
+            <input type="number"    id="immo-corp">
+          </div>
+          <div>
+            <label for="actif-ci"> Actif circulant (stocks,cr&eacute;ances, banque/caisse) </label>
+            <input type="number"   id="actif-ci">
+          </div>
+          <button type="button"  id="actif"> Calculer </button>
+          <p id="res-actif"> R&eacute;sultat: </p>
+      </section>
+       <!--fin du bloc -->
+
+      <section>
+        <h3> Passif </h3>
+        <div>
+          <label for="cap-propre"> Capitaux Propres </label>
+          <input type="number"  id="cap-propre">
+        </div>
+        <div>
+          <label  for="dette-fina"> Dettes Financi&egrave;res </label>
+          <input  type="number"  id="dette-fina">
+        </div>
+        <div>
+          <label  for="dette-fou"> Dettes Fournisseurs </label>
+          <input  type="number"   id="dette-fou">
+        </div>
+        <button type="button"  id="passif"> Calculer </button>
+        <p id="res-passif"> R&eacute;sultat: </p>
+      </section>
+      <!-- fin du bloc -->
+      
+      <section>
+        <h3> V&eacute;rification de l'&eacute;quilibre </h3>
+        <button type="button" id="verification" > V&eacute;rifier </button>
+        <p> Actif = Passif ? </p>
+        <p id="res"> R&eacute;sultat: </p>
+      </section>

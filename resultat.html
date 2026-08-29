@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+     <title> Compte de r&eacute;sultat </title>
+     <meta charset="UTF-8" />
+     <meta name="author" content="laica" />
+     <meta name="keyword" content="resultat" />
+     <meta name="viewport" content="width= device-width, initail-scale= 1.0" />
+
+     <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header> <h1> La&iuml;ca Tools </h1>
+        <nav> 
+          <ul> 
+          <li> <a href="index.html"> Accueil </a> </li>
+          <li> <a href="calculs.html"> Calculs comptables </a> </li>
+          <li> <a href="resultat.html"> compte de r&eacute;sultat </a> </li>
+          <li> <a href="bilan.html">   Bilan   </a> </li>
+          <li> <a href="journal.html"> Journal </a></li>
+          <li> <a href="comprendre.html">Comprendre </a></li>
+          <li> <a href="apropos.html"> &Agrave; propos  </a></li>
+          </ul>
+        </nav>
+    </header>
+    <main class="sans-bordure">
+      <h2>Compte de R&eacute;sultat</h2>
+      <section>
+          <h3> Exploitation </h3>
+          <div>
+            <label for="pd-exp"> Produits d'exploitation </label>
+            <input type="number" id="pd-exp">
+          </div>
+          <div>
+            <label for="ch-exp"> Charges d'exploitation </label>
+            <input type="number" id="ch-exp"> 
+          </div>
+          <button type="button"  id="exploitation"> Calculer </button>
+          <p id="res-exploitation"> R&eacute;sultat d'exploitation: </p>
+     
+      </section>
+     <!--fin du 1er bloc-->
+
+    <section>
+      <h3> Financier </h3>
+      <div>
+        <label for="pd-fi"> Produits Financier </label>
+        <input type="number"  id="pd-fi">
+      </div>
+      <div>
+        <label for="ch-fi"> Charges Financi&egrave;res </label>
+        <input type="number"  id="ch-fi">
+      </div>
+      <button type="button"  id="financier"> Calculer </button>
+      <p id="res-financier"> R&eacute;sultat Financier: </p>
+
+    </section>
+     <!--fin du 2e bloc -->
+   
+    <section>
+      <h3> Exceptionnel</h3>
+      <div>
+      <label for="pd-exc"> Produits Exceptionnel </label>
+      <input type="number" id="pd-exc">
+      </div>
+      <div>
+        <label for="ch-exc"> Charges Exceptionnel </label>
+        <input type="number"  id="ch-exc" >
+      </div>
+      <button type="button"  id="exceptionnel"> Calculer </button>
+      <p id="res-exceptionnel"> R&eacute;sultat Exceptionnel: </p>
+    </section>
+      <!--fin du 3e bloc -->
+
+    <section>
+      <h3> R&eacute;sultat Net </h3>
+      <p> R&eacute;sultat Net = Total produits - Total charges </p>
+      <button type="button"  id="btn-resultat">Calculer </button>
+      <p id="res-net"> R&eacute;sultat net : </p>
+      <p id="interpretation"> Interpretation(b&eacute;n&eacute;fice/perte) : </p>
+    </section>
+
+
+    </main>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

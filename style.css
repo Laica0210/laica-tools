@@ -1,0 +1,106 @@
+/* on stocke d'abord les couleurs dans les variables pour les changer facilement */
+
+:root {
+    --couleur-principale : #0F2A4A;      /* bleu marine  couleur du fond*/
+    --couleur-accent: #F4C97A;           /* dore */
+    --couleur-texte: #1D2B3A;            /* presque noir, pour le texte */
+    --couleur-fond: #FFFFFF;            /* blanc */ 
+    --couleur-page: #f1f3f8; 
+ }
+
+ /* rien n'est encore fait j'ai juste stocker les couleurs dans les variables, on commence */
+
+ body {
+    color: var(--couleur-texte);
+    background-color: var(--couleur-page);
+    font-size: 18px;
+ }
+
+
+ /* les element qui se trouve dans header */
+
+ header {
+    background-color: var(--couleur-principale);
+    padding: 25px ;
+ }
+
+ h1 {
+    color: var(--couleur-accent);
+ }
+
+ nav a {
+    color:var(--couleur-accent);
+ }
+
+nav ul  {
+    display:flex;
+    list-style: none;
+    gap: 40px ;
+}
+
+/* les elements de main */ 
+main {
+    padding: 30px;
+    max-width: 800px ;
+    margin: 30px auto; 
+    background-color:white;
+    border-radius: 20px;
+    border: 2px solid var(--couleur-accent);
+
+}
+h2 {
+    color:var(--couleur-principale);
+}
+ 
+/* rien dans footer choix esthetique  */
+
+/* style de calculs.html */
+.sans-bordure {
+   border: none ;
+}
+
+section {
+   margin-bottom: 30px;
+   border-radius: 20px;
+   border: 1px solid var(--couleur-accent);
+   padding: 10px;
+}
+ 
+div {
+    margin-bottom: 10px ;
+}
+
+button {
+   padding:10px;
+   border:none; 
+   border-radius: 20px;
+   background-color: var(--couleur-principale);
+   color:var(--couleur-accent);
+   
+}
+
+/* Journal */ 
+table {
+   width:100%;
+   border-collapse: collapse;
+
+}
+
+th,td {
+   border: 1px solid var(--couleur-accent);
+   padding: 8px;
+}
+
+td input {
+   width: 100%;
+}
+
+th {
+   background-color: var(--couleur-principale);
+   color:var(--couleur-accent);
+}
+
+/* a propos */
+.apropos p a {
+    font-size: 18px;
+}
