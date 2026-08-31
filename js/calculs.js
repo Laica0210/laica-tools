@@ -1,4 +1,4 @@
-// calculs.js 
+ // calculs.js 
 
 // premier bloc 
 document.getElementById("btn-conversion").addEventListener("click", function() {
